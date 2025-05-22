@@ -69,21 +69,12 @@ Create/select a project
 
 Enable Email/Password sign-in under Authentication
 
-Navigate to Project Settings > Service Accounts
 
-Click Generate new private key and download the JSON file
-
-Rename the file to serviceAccountKey.json and place it in:
-
-pgsql
-Copy
-Edit
-server/config/serviceAccountKey.json
 4. Configure Environment Variables
 Frontend
 Copy .env.example to .env in client/
 
-Fill in your Firebase config:
+
 
 ini
 Copy
@@ -132,7 +123,7 @@ client/
 ├── tailwind.config.js
 └── package.json
 server/ – Node/Express Backend
-pgsql
+
 Copy
 Edit
 server/
@@ -141,7 +132,6 @@ server/
 ├── controllers/
 ├── models/
 ├── routes/
-├── socket/
 ├── .env
 ├── server.js
 └── package.json
