@@ -1,3 +1,5 @@
+
+![image](https://github.com/user-attachments/assets/88daf1a6-76f1-40f6-b13b-07749d72c523)
 💬 Real-time Chat Application
 A modern, responsive, and feature-rich real-time chat application built to facilitate seamless communication between users.
 
