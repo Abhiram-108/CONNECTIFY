@@ -48,7 +48,7 @@ Socket.io – Real-time, event-based communication
 bash
 Copy
 Edit
-git clone https://github.com/your-username/chat-app.git
+git clone https://github.com/Abhiram108/connectify.git
 cd chat-app
 2. Install Dependencies
 Frontend
@@ -63,8 +63,7 @@ Copy
 Edit
 cd ../server
 npm install
-3. Set Up Firebase Authentication
-Visit Firebase Console
+
 
 Create/select a project
 
@@ -89,13 +88,9 @@ Fill in your Firebase config:
 ini
 Copy
 Edit
-REACT_APP_API_KEY=your_firebase_api_key
-REACT_APP_AUTH_DOMAIN=your_project.firebaseapp.com
-REACT_APP_PROJECT_ID=your_project_id
-REACT_APP_STORAGE_BUCKET=your_project.appspot.com
-REACT_APP_MESSAGING_SENDER_ID=your_sender_id
-REACT_APP_APP_ID=your_app_id
-Backend
+MONGO_URL=//////////////////////////////////////////////
+    JWT_SECRET=///////////////
+    PORT=////////////
 Copy .env.example to .env in server/
 
 Fill in your values:
