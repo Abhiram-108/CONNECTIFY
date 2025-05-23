@@ -44,11 +44,7 @@
 </p>
 </div>
 
-**Guest User login accounts:**
-```
-username : guestuser1@gmail.com, guestuser2@gmail.com
-password: 1234guest
-```
+
 
 ---
 
